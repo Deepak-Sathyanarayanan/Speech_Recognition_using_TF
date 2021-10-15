@@ -19,5 +19,5 @@ https://drive.google.com/file/d/1TYk2MPv2IOcU2vkC7tRjShOWRFO6x42r/view?usp=shari
   curl -X POST "http://127.0.0.1:8000/predict/" -H  "accept: application/json" -H  "Content-Type: multipart/form-data" -F     "file=@1aeef15e_nohash_0.wav;type=audio/wav"  
   and give the filename in file=<<filename>>
   
-  3. Alternatively, you can go to http://127.0.0.1:8000/docs/ and upload the aduio file and hit EXECUTE.
+  3. Alternatively, you can go to http://127.0.0.1:8000/docs/ and upload the aduio file and hit EXECUTE. 
 
